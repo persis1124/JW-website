@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Metro Management System</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#routes">Routes</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="home">
+            <h1>Welcome to Metro Management System</h1>
+            <p>Efficient and convenient metro services for everyone.</p>
+            <button onclick="alert('Welcome to Metro Services!')">Learn More</button>
+        </section>
+        <section id="routes">
+            <h2>Available Routes</h2>
+            <form>
+                <label>
+                    <input type="checkbox" name="route" value="north-line"> North Line
+                </label><br>
+                <label>
+                    <input type="checkbox" name="route" value="south-line"> South Line
+                </label><br>
+                <label>
+                    <input type="checkbox" name="route" value="east-line"> East Line
+                </label><br>
+                <label>
+                    <input type="checkbox" name="route" value="west-line"> West Line
+                </label><br>
+                <button type="button" onclick="showSelectedRoutes()">Show Selected Routes</button>
+            </form>
+        </section>
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <form>
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name"><br>
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email"><br>
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Metro Management System. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+<a href="website.css">Website</a>
+<a href="js.script">Select</a>
+</body>
+</html>
